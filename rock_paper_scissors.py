@@ -12,7 +12,7 @@ def get_computer_choice():
     choices = ["rock", "paper", "scissors"]
     return random.choice(choices)
 
-def determine_winner(user_choice, computer_choice):
+def winner(user_choice, computer_choice):
     if user_choice == computer_choice:
         return "It's a tie!"
     elif (
@@ -22,14 +22,14 @@ def determine_winner(user_choice, computer_choice):
     ):
         return "You win!"
     else:
-        return "Computer wins!"
+        return "Computer wins. Better luck next time."
 
 def play_game():
     print("Welcome to Rock Paper Scissors!")
     user_choice = get_user_choice()
     computer_choice = get_computer_choice()
-    print(f"You chose {user_choice}, and the computer chose {computer_choice}.")
-    result = determine_winner(user_choice, computer_choice)
+    print("You: {user_choice} VS Computer: {computer_choice}.")
+    result = winner(user_choice, computer_choice)
     print(result)
 
 play_game()
