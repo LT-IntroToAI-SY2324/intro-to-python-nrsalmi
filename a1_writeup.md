@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+I prefer it voer java because it seems to shorten the more complicated parts that Java has and replaces it with simpler yet similar functions. Python can still have lines of code that I don't 100% understand
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+Statements such as else and and else if which is shortened to elif or functions that define processes such as in java.
 
 3. What are some things that you learned through this assignment?
+
+I started to get the jist of the similariteis that I have seen before and can apply wit my past knowledge of coding such as else statements and functions.
